@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/normalize.css">
+    <link rel="stylesheet" href="style/style.css">
+    <title>MoonLight</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="header__container">
+            <div class="header__inner">
+                <div class="header__left">
+                    <div class="home__img"><img src="images/home.svg" alt="home"></div>
+                    <p class="header__left__descr">
+                        Златоуст, Национальный парк “Таганай”
+                    </p>
+                </div>
+                <nav class="header__nav">
+                    <a class="header__link" href="#"><img src="images/logo.svg" alt="logo"></a>
+                    <ul class="header__menu">
+                        <li class="header__item">
+                            <a class="header__link" href="#">ГЛАВНАЯ</a>
+                        </li>
+                        <li class="header__item">
+                            <a class="header__link" href="#rooms">НОМЕРА</a>
+                        </li>
+                        <li class="header__item">
+                            <a class="header__link" href="#zone">ЭТНО-ЗОНА</a>
+                        </li>
+                        <li class="header__item">
+                            <a class="header__link" href="#services">УСЛУГИ</a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="header__right">
+                    <div class="header__right__one">
+                        <div class="header__email">
+                            <img src="images/email.svg" alt="email">
+                            <a href="mailto:booking@ethno-complex.ru"
+                                class="header__email__link">booking@ethno-complex.ru</a>
+                        </div>
+                        <div class="header__phone">
+                            <img src="images/phone.svg" alt="phone">
+                            <a href="tel:+(3513)-32-10-06"  class="header__phone__link">(3513)-32-10-06</a>
+                        </div>
+                    </div>
+                    <div class="header__right__two">
+                        <a href="https://t.me/+m7B4CPRhiPMzMzE6" target="_blank" ><img src="images/tg.svg" alt="Telegram"></a>
+                        <a target="_blank" href="https://vk.com/club226206616"><img src="images/vk.svg"
+                                alt="VKontakte"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <section class="booking">
+            <div class="container">
+                <div class="booking__inner">
+                    <div class="booking__inner__one">
+                        <div class="booking__checkIn">
+                            <label class="booking__checkIn__titel booking__titel">Даты заезда</label>
+                            <input type="date" class="booking__checkIn__date input">
+                        </div>
+                        <div class="booking__checkOut">
+                            <label class="booking__checkOut__titel booking__titel">Даты выезда</label>
+                            <input type="date" class="booking__checkOut__date input">
+                        </div>
+                        <div class="booking__guests">
+                            <label class="booking__guests__titel booking__titel">Гостей</label>
+                            <div class="booking__guests__inner">
+                                <input value="2" class="booking__guests__date">
+                                <img src="images/guests.svg" alt="guests">
+                            </div>
+                        </div>
+                        <div class="booking__button">
+                            <button class="booking__btn">Проверить</button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <section class="rooms">
+            <div class="container">
+                <div class="rooms__inner">
+                    <h2 id="rooms" class="rooms__titel">
+                        НАШИ НОМЕРА
+                    </h2>
+                    <div class="rooms__cards">
+                        <div class="room__card">
+                            <img src="images/room-1.png" alt="house">
+                            <div class="card__top">
+                            </div>
+                            <h3 class="card__titel">Коттедж “СозерцАй”</h3>
+                        </div>
+                        <div class="room__card">
+                            <img src="images/room-2.png" alt="house">
+                            <div class="card__top">
+                            </div>
+                            <h3 class="card__titel">Коттедж “ВспоминАй”</h3>
+                        </div>
+                    </div>
+                    <div class="rooms__cards">
+                        <div class="room__card">
+                            <img src="images/room-3.png" alt="house">
+                            <div class="card__top">
+                            </div>
+                            <h3 class="card__titel">Коттедж “ОткрывАй”</h3>
+                        </div>
+                        <div class="room__card">
+                            <img src="images/room-4.png" alt="house">
+                            <div class="card__top">
+                            </div>
+                            <h3 class="card__titel card__titel__1">Жилой корпус “ОтдыхАй”</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="scheme">
+            <div class="container">
+                <div class="scheme__inner">
+                    <h2 class="scheme__titel">СХЕМА КОМПЛЕКСА</h2>
+                    <div class="container__zoom">
+                        <div class="zoom__img">
+                            <div class="zoom__img__block">
+                                <a href="images/scheme-1.svg" class="zoom__img__item">
+                                    <div class="zoom__img__cursor"></div>
+                                    <img class="zoom__img__img" src="images/scheme-1.svg" alt="scheme">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="zoom__img__overlay">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="zone" class="zone">
+            <div class="container">
+                <div class="zone__inner">
+                    <h2 class="zone__titel">
+                        ЭТНО-ЗОНА
+                    </h2>
+                    <div class="zone__full">
+                        <div class="zone__1">
+                            <p class="zone__descr">
+                                Жилая зона нашего комплекса соединена<br> мостом с Этно-зоной. Через этот
+                                мост вы<br> сможете познакомиться с историей Южного<br> Урала через жилища народов
+                                разных<br>
+                                национальностей, таких как башкиры, татары, казаки и русские.
+                            </p>
+                            <img src="images/zone-1.png" alt="photograp">
+                        </div>
+                        <div class="zone__1">
+                            <img src="images/zone-2.png" alt="photograp">
+                            <p class="zone__descr zone__descr__1">
+                                В Этно-зоне вы сможете пройти мастер-классы, где вы сможете освоить
+                                навыки приготовления национальных блюд, вышивания кукол и расписывания<br> посуды.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="services" class="services">
+            <div class="container">
+                <div class="services__inner">
+                    <h2 class="services__titel">
+                        УСЛУГИ
+                    </h2>
+                    <div class="rooms__cards rooms__cards__1">
+                        <div class="room__card">
+                            <img src="images/services-1.png" alt="house">
+                            <div class="card__top card__top__1">
+                            </div>
+                            <h3 class="card__titel card__titel__2">Башкирская баня и русская баня</h3>
+                        </div>
+                        <div class="room__card">
+                            <img src="images/services-2.png" alt="house">
+                            <div class="card__top card__top__1">
+                            </div>
+                            <h3 class="card__titel card__titel__3">Спортивная площадка</h3>
+                        </div>
+                    </div>
+                    <div class="rooms__cards rooms__cards__1">
+                        <div class="room__card">
+                            <img src="images/services-3.png" alt="house">
+                            <div class="card__top card__top__1">
+                            </div>
+                            <h3 class="card__titel card__titel__4">Образовательный комплекс</h3>
+                        </div>
+                        <div class="room__card">
+                            <img src="images/services-4.png" alt="house">
+                            <div class="card__top card__top__1">
+                            </div>
+                            <h3 class="card__titel card__titel__5">Кафе “Ай”</h3>
+                        </div>
+                    </div>
+                    <div class="rooms__cards rooms__cards__1">
+                        <div class="room__card">
+                            <img src="images/services-5.png" alt="house">
+                            <div class="card__top card__top__1">
+                            </div>
+                            <h3 class="card__titel card__titel__1">Аренда инвентаря</h3>
+                        </div>
+                        <div class="room__card">
+                            <img src="images/services-6.png" alt="house">
+                            <div class="card__top card__top__1">
+                            </div>
+                            <h3 class="card__titel card__titel__3">Сувенирная продукция</h3>
+                        </div>
+                    </div>
+                    <div class="rooms__cards rooms__cards__1">
+                        <div class="room__card">
+                            <img src="images/services-7.png" alt="house">
+                            <div class="card__top card__top__1">
+                            </div>
+                            <h3 class="card__titel card__titel__4">Мероприятия в Этно-зоне</h3>
+                        </div>
+                        <div class="room__card">
+                            <img src="images/services-8.png" alt="house">
+                            <div class="card__top card__top__1">
+                            </div>
+                            <h3 class="card__titel card__titel__5">Экскурсия</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer__container">
+            <div class="footer__inner">
+                <div class="footer__1">
+                    <h2 class="footer__1__titel">Геолокация</h2>
+                    <img src="images/footer-1.png" alt="">
+                </div>
+                <div class="footer__3">
+                    <div class="footer__2">
+                        <div class="footer__2__inner">
+                            <h3 class="footer__2__inner__titel">
+                                Контакты
+                            </h3>
+                            <div class="footer__2__phone">
+                                <img src="images/footer-phone.svg" alt="phone">
+                                <a href="tel:(3513)-32-10-06" class="footer__phone__link">(3513)-32-10-06</a>
+                            </div>
+                            <div class="footer__2__home">
+                                <img src="images/footer-home.svg" alt="home">
+                                <p class="footer__home__link">Национальный парк<br> “Таганай”</p>
+                            </div>
+                            <div class="footer__2__email">
+                                <img src="images/footer-email.svg" alt="email">
+                                <a href="mailto:booking@ethno-complex.ru"
+                                    class="footer__email__link">booking@ethno-complex.ru</a>
+                            </div>
+                            <div class="footer__2__social">
+                                <a href="https://t.me/+m7B4CPRhiPMzMzE6" target="_blank"><img src="images/tg.svg" alt="Telegram"></a>
+                                <a target="_blank" href="https://vk.com/club226206616"><img src="images/vk.svg"
+                                        alt="VKontakte"></a>
+                            </div>
+                        </div>
+                        <div>
+                            <img src="images/footer-2.png" alt="photography">
+                        </div>
+                    </div>
+                    <div class="footer__4">
+                        <h2 class="footer__4__titel">
+                            Карта маршрута исследования “Таганай”
+                        </h2>
+                        <div>
+                            <img src="images/footer-3.png" alt="photography">
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="./main.js"></script>
+</body>
+
+</html>
+
+<!-- <input type="date" class="datasetting1">
+                <select name="vid" id="vid-select" class="datasetting">
+                    <option value="">Вид</option>
+                    <option value="tematic">тематическая программа</option>
+                    <option value="sujet">сюжетная программа</option>
+                    <option value="kvest">квест</option>
+                    <option value="poes">поездка</option>
+                    <option value="exk">экскурсия</option>
+                    <option value="baby">детский</option>
+                    <option value="active">активный</option>
+                  </select> -->

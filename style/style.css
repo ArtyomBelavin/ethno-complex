@@ -1,0 +1,542 @@
+html {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Montserrat';
+
+}
+
+*,
+::before,
+::after {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('./fonts/Montserrat-SemiBold.woff2') format('woff2');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('/fonts/Montserrat-Medium.woff2') format('woff2');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('/fonts/Montserrat-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+.container {
+    max-width: 1436px;
+    margin: 0 auto;
+}
+
+.header__container {
+    max-width: 1436px;
+    margin: 0 auto;
+}
+
+.header__inner {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+.header__left {
+    display: flex;
+    gap: 5px;
+}
+
+.header__nav {
+    display: flex;
+    gap: 35px;
+}
+
+.header__menu {
+    display: flex;
+    gap: 35px;
+    align-items: end;
+    margin-bottom: 35px;
+}
+
+.header__right {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.header__right__one {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.header__email {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+.header__phone {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+.header__right__two {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.header__left__descr {
+    color: #1e1e1e;
+    font-weight: 400;
+}
+
+.header__link {
+    color: #1e1e1e;
+    font-weight: 400;
+    transition: all 0.1s;
+}
+
+.header__email__link {
+    color: #1e1e1e;
+    font-weight: 400;
+}
+
+.header__phone__link {
+    color: #1e1e1e;
+    font-weight: 400;
+}
+
+/* ----------------- */
+
+.booking {
+    background-image: url(../images/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    padding-top: 60px;
+    height: 50vh;
+}
+
+.booking__inner {
+    display: flex;
+    justify-content: center;
+}
+
+.booking__inner__one {
+    display: flex;
+    align-items: end;
+    gap: 46px;
+    background-color: #fff;
+    box-shadow: 0 0 10px 0px #737373;
+    padding: 22px 83px 44px 83px;
+}
+
+.booking__checkIn {
+    display: flex;
+    flex-direction: column;
+    padding-right: 13px;
+}
+
+.input {
+    width: 232px;
+    height: 34px;
+    border: 1px solid #000;
+    padding-left: 13px;
+    padding-right: 13px;
+    border-radius: 10px;
+}
+
+.booking__checkOut {
+    display: flex;
+    flex-direction: column;
+    padding-right: 13px;
+}
+
+.booking__guests {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.booking__guests__date {
+    border: none;
+    width: 260px;
+    height: 36px;
+    padding-left: 13px;
+    border-radius: 10px;
+}
+
+.booking__guests__inner {
+    display: flex;
+    align-items: center;
+    border: 1px solid #000;
+    border-radius: 10px;
+    padding-right: 13px;
+}
+
+.booking__btn {
+    padding: 10px 29px;
+    text-align: center;
+    cursor: pointer;
+    border: none;
+    font-size: 14px;
+    font-weight: 500;
+    color: #fff;
+    background-color: #AC5E0E;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 2px #AC5E0E;
+    transition: all .3s;
+}
+
+.booking__titel {
+    font-size: 16px;
+    color: #585858;
+    font-weight: 600;
+}
+
+/* ---------------------- */
+
+.rooms__titel {
+    margin-bottom: 54px;
+    margin-top: 30px;
+    text-align: center;
+    color: #AC5E0E;
+    font-size: 34px;
+}
+
+.rooms__cards {
+    display: flex;
+}
+
+.room__card {
+    position: relative;
+}
+
+.room__card {
+    transition: all .3s;
+}
+
+.card__top {
+    background-color: #000;
+    opacity: 0.3;
+    position: absolute;
+    width: 708px;
+    height: 65px;
+    top: 18px;
+    left: 20px;
+}
+
+.card__titel {
+    position: absolute;
+    top: 30px;
+    left: 210px;
+    font-size: 34px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.card__titel__1 {
+    position: absolute;
+    left: 170px;
+}
+
+/* ----------------- */
+
+.scheme__titel {
+    margin-top: 70px;
+    margin-bottom: 78px;
+    text-align: center;
+    font-size: 34px;
+    color: #AC5E0E;
+}
+
+/* -------------------- */
+
+.zone {
+    margin-top: 69px;
+}
+
+.zone__full {
+    display: flex;
+    gap: 75px;
+}
+
+.zone__1 {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+
+}
+
+.zone__1 img {
+    transition: all .3s;
+    overflow: hidden;
+}
+
+
+.zone__1 img:hover {
+    transform: scale(1.1);
+    
+}
+
+.zone__descr {
+    color: #644230;
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.zone__descr__1 {
+    text-align: right;
+}
+
+.zone__titel {
+    color: #AC5E0E;
+    font-size: 34px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 53px;
+}
+
+/* ------------------------------------- */
+
+.services {
+    margin-top: 111px;
+}
+
+.services__titel {
+    text-align: center;
+    font-size: 34px;
+    font-weight: 600;
+    color: #AC5E0E;
+    margin-bottom: 48px;
+}
+
+.card__top__1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 641px;
+    height: 87px;
+}
+
+.rooms__cards__1 {
+    gap: 83px;
+    background-color: #68685C;
+    padding: 34px 34px;
+}
+
+.card__titel__2 {
+    position: absolute;
+    top: 30px;
+    left: 65px;
+
+}
+
+.card__titel__3 {
+    position: absolute;
+    top: 30px;
+    left: 150px;
+}
+
+.card__titel__4 {
+    position: absolute;
+    top: 30px;
+    left: 100px;
+}
+
+.card__titel__5 {
+    position: absolute;
+    top: 30px;
+    left: 240px;
+}
+
+/* --------------------- */
+
+.footer {
+    margin-top: 68px;
+    padding-top: 40px;
+    background-color: #999492;
+}
+
+.footer__container {
+    max-width: 1835px;
+    margin: 0 auto;
+}
+
+.footer__inner {
+    display: flex;
+    gap: 16px;
+}
+
+.footer__1__titel {
+    text-align: center;
+    margin-bottom: 32px;
+    font-size: 48px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.footer__2 {
+    display: flex;
+    gap: 40px;
+}
+
+.footer__2__inner__titel {
+    font-size: 32px;
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 18px;
+}
+
+.footer__2__phone {
+    display: flex;
+    gap: 5px;
+    color: #fff;
+    font-weight: 500;
+}
+
+.footer__2__home {
+    display: flex;
+    gap: 5px;
+    color: #fff;
+    font-weight: 500;
+    text-align: center;
+    align-items: start;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.footer__2__email {
+    display: flex;
+    gap: 5px;
+    color: #fff;
+    font-weight: 500;
+}
+
+.footer__2__inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer__2__social {
+    background-color: #fff;
+    padding: 10px;
+    display: flex;
+    gap: 7px;
+    align-items: center;
+    margin-top: 31px;
+    border-radius: 10px;
+}
+
+.footer__3 {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__4__titel {
+    text-align: center;
+    margin-top: 17px;
+    margin-bottom: 19px;
+    color: #fff;
+    font-size: 34px;
+
+}
+
+.container__zoom {
+    position: relative;
+
+}
+
+.zoom__img__img {
+    width: 1000px;
+}
+
+.zoom__img {
+    position: relative;
+}
+
+.zoom__img__block {
+    overflow: hidden;
+}
+
+.zoom__img__item {
+    display: inline-block;
+    position: relative;
+}
+
+.zoom__img__cursor {
+    border: 1px solid #ccc;
+    background: #fff;
+    opacity: .5;
+    position: absolute;
+    display: none;
+    top: 30px;
+    left: 100px;
+    width: 50px;
+    height: 50px;
+}
+
+.zoom__img__overlay {
+    width: 400px;
+    height: 275px;
+    position: absolute;
+    display: none;
+    top: 140px;
+    right: -40px;
+    z-index: 2;
+    background-image: none;
+    /* background-image: url(../images/scheme-1.png);
+    background-position: (-500px, -500px); */
+    background-repeat: no-repeat;
+}
+
+/*  -----------------ANIMATION----------- */
+
+.header__link:hover {
+    color: #3F8CFF;
+    border-bottom: 4px solid #3F8CFF;
+}
+
+.header__link:active {
+    color: #3F8CFF;
+    border-bottom: 4px solid #323f51;
+}
+
+.room__card:hover {
+    transform: scale(1.1);
+}
+
+.booking__btn:hover {
+    background-color: #EC9337;
+}
+
+.booking__btn:active {
+    background-color: #a0662c;
+}
